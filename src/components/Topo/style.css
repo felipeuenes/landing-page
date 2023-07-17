@@ -5,6 +5,9 @@
     /* align-items: center; */
 }
 
+.boxTop{
+   
+}
 
 .txt {
     /* padding: 5.0rem; */
@@ -46,7 +49,12 @@ strong{
 .boxTop{
     display: flex;
     flex-direction: column;
-    margin-top: 10.0rem;
+    /* margin-top: 10.0rem; */
+    background-image: url(../../assets/fundo-inicio.png) ;
+    background-size: 100%;
+    width: 100vw;
+    height: 110vh;
+    background-repeat: no-repeat;
 }
 
 

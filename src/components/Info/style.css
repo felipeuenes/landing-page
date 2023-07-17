@@ -1,7 +1,7 @@
 .informacoes{
     width: 100vw;
     height: 50.0rem;
-    margin-top: 19.0rem;
+    /* margin-top: 19.0rem; */
     background-image: url('../../assets/fundo-linhas.png');
     background-size: 100vw;
     display: flex;
