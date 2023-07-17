@@ -19,6 +19,11 @@
     background-color: rgb(124, 124, 124);
 }
 
+.videoAqui iframe{
+    width: 100%;
+    height: 100%;
+}
+
 .btn{
     margin-top: 2.6rem;
     width: 30.0rem;
@@ -28,4 +33,9 @@
     border: none;
     background-color: "#006edb";
     font-size: 2.0rem;
+}
+
+.btn:hover{
+    background-color: "#002adb";
+    cursor: pointer;
 }
