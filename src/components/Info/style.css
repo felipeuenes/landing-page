@@ -1,12 +1,18 @@
 .informacoes{
     width: 100vw;
     height: 50.0rem;
-    margin-top: 27.0rem;
+    margin-top: 19.0rem;
+    background-image: url('../../assets/fundo-linhas.png');
+    background-size: 100vw;
+    
+    background-repeat: no-repeat;
 }
 
 .informacoes h1{
     color: #006edb;
     text-align: left;
     font-size: 5.0rem;
+    position: absolute;
     margin-left: 9.4rem;
+    margin-top: 6.0rem;
 }
