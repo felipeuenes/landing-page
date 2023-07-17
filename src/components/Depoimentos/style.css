@@ -1,0 +1,10 @@
+.depoimentosBox{
+    width: 100vw;
+    height: 40.0rem;
+    background-color: white;
+}
+
+.depoimentosBox h1{
+    color: #006edb;
+    font-size: 5.0rem;
+}

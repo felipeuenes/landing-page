@@ -19,6 +19,7 @@
     width: 65%;
     height: 40.0rem;
     background-color: rgb(124, 124, 124);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
 }
 
 .videoAqui iframe{
@@ -39,6 +40,9 @@
 }
 
 .btn:hover{
-    background-color: "#002adb";
+    background-color: #004488;
+    color: white;
     cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.05);
 }

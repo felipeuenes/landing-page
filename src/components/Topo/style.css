@@ -5,14 +5,9 @@
     /* align-items: center; */
 }
 
-.boxTop{
-   
-}
-
 .txt {
     display: flex;
     flex-wrap: wrap;
-   
     color: white;
     width: 100vw;
 }
