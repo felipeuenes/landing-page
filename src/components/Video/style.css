@@ -2,4 +2,9 @@
     width: 100vw;
     height: 40.0rem;
     background-color: "#006edb";
+    margin-top: 10.0rem;
+}
+
+.videoApresentacao h1{
+    color: "#006edb";
 }
