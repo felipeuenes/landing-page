@@ -10,13 +10,11 @@
 }
 
 .txt {
-    /* padding: 5.0rem; */
     display: flex;
     flex-wrap: wrap;
    
     color: white;
     width: 100vw;
-
 }
 
 .txt section{
@@ -28,9 +26,7 @@
     white-space: inherit;
 }
 
-#textoTempo{
-    /* margin-left: 1.6rem; */
-}
+
 
 h1{
     margin-top: 2.4rem;
