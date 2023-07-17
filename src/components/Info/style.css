@@ -3,3 +3,10 @@
     height: 50.0rem;
     margin-top: 27.0rem;
 }
+
+.informacoes h1{
+    color: #006edb;
+    text-align: left;
+    font-size: 5.0rem;
+    margin-left: 9.4rem;
+}
