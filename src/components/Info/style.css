@@ -4,7 +4,8 @@
     margin-top: 19.0rem;
     background-image: url('../../assets/fundo-linhas.png');
     background-size: 100vw;
-    
+    display: flex;
+ 
     background-repeat: no-repeat;
 }
 
@@ -15,4 +16,31 @@
     position: absolute;
     margin-left: 9.4rem;
     margin-top: 6.0rem;
+}
+
+.skills{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    margin-top: 25.0rem;
+   
+}
+
+@media screen and (max-width: 700px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.skills section{
+    text-align: center;
+}
+
+.skills section img{
+    width: 9.0rem;
 }
