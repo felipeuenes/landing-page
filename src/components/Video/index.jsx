@@ -8,7 +8,7 @@ export function Video(){
             <div className='videoApresentacao'>
                 <h1>Conheça nosso método!</h1>
                 <div className='videoAqui'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/I-sKa_KZLuw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/I-sKa_KZLuw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <button className='btn'>EU QUERO!</button>
             </div>
