@@ -7,6 +7,7 @@
     display: flex;
  
     background-repeat: no-repeat;
+     /* visibility: hidden; */
 }
 
 .informacoes h1{
@@ -16,6 +17,7 @@
     position: absolute;
     margin-left: 9.4rem;
     margin-top: 6.0rem;
+   
     
     animation: fadeIn 1s ease-in-out forwards;
 }
