@@ -9,12 +9,13 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-    width: 100vw;
+    width: 85vw;
 }
 
 .txt section{
     flex-basis: 55.0rem;
     margin-top: 1.6rem;
+  
 }
 .txt section h1{
     text-align: left;
