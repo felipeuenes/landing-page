@@ -16,7 +16,20 @@
     position: absolute;
     margin-left: 9.4rem;
     margin-top: 6.0rem;
+    
+    animation: fadeIn 1s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Iniciar com uma translação para baixo */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Terminar sem translação */
+    }
+  }
 
 @media screen and (max-width: 500px) {
     .informacoes h1{
