@@ -22,6 +22,12 @@
     white-space: inherit;
 }
 
+@media screen and (max-width: 500px) {
+    .txt section h1{
+        font-size: 3.6rem;
+    }
+}
+
 
 
 h1{
@@ -43,12 +49,18 @@ strong{
     flex-direction: column;
     /* margin-top: 10.0rem; */
     background-image: url(../../assets/fundo-inicio.png) ;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
     width: 100vw;
     height: 110vh;
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 600px) {
+    .boxTop{
+        background-position: center;
+    }
+}
 
 .logoBranca{
     /* position: absolute; */
@@ -61,4 +73,14 @@ strong{
 
 #foto h1{
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #foto{
+        display: none;
+    }
+
+    #textoTempo{
+        margin-top: 6.0rem;
+    }
 }

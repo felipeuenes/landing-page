@@ -18,6 +18,15 @@
     margin-top: 6.0rem;
 }
 
+@media screen and (max-width: 500px) {
+    .informacoes h1{
+        font-size: 2.4rem;
+        margin-left: 5.0rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+}
+
 .skills{
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
@@ -34,6 +43,7 @@
     .skills{
         display: flex;
         flex-direction: column;
+        margin-top: 3.6rem;
     }
 
     .skills section p{

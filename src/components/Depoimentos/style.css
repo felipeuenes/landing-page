@@ -8,3 +8,9 @@
     color: #006edb;
     font-size: 5.0rem;
 }
+
+@media screen and (max-width: 500px) {
+    .depoimentosBox h1{
+        font-size: 3.5rem;
+    }
+}

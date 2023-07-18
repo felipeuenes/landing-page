@@ -8,11 +8,23 @@
     flex-direction: column;
 }
 
+
+
 .videoApresentacao h1{
     margin-top: 2.6rem;
     /* color: #006edb; */
     font-size: 3.6rem;
     margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width: 500px) {
+    .videoApresentacao{
+        margin-top: 80.0rem;
+        height: 45.0rem;
+    }
+    .videoApresentacao h1{
+        font-size: 2.6rem;
+    }
 }
 
 .videoAqui{
@@ -27,6 +39,13 @@
     height: 100%;
 }
 
+@media screen and (max-width: 500px) {
+    .videoAqui{
+        height: 25.0rem;
+        width: 80%;
+    }
+}
+
 .btn{
     margin-top: 2.6rem;
     width: 30.0rem;
@@ -37,6 +56,14 @@
    
     font-size: 2.4rem;
     font-family: montserrat black;
+}
+
+@media screen and (max-width: 500px){
+    .btn{
+        width: 25.0rem;
+        height: 4.0rem;
+        font-size: 2.0rem;
+    }
 }
 
 .btn:hover{
