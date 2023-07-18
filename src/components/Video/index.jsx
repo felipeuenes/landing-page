@@ -11,7 +11,7 @@ export function Video(){
             </ScrollRevealContainer>
                 {/* <ScrollRevealContainer> */}
                 <div className='videoAqui'>
-                <iframe  src="https://www.youtube.com/embed/I-sKa_KZLuw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/jix4JBDV3WE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
       {/* </ScrollRevealContainer> */}
                 <button className='btn'>EU QUERO!</button>

@@ -69,7 +69,10 @@ strong{
 
 @media screen and (max-width: 600px) {
     .boxTop{
-        background-position: center;
+        background-position: top center;
+        background-image: url(../../assets/fundo-mobile.png);
+        background-size: 60vh;
+        height: 60.0rem;
     }
 }
 

@@ -6,6 +6,7 @@ import React from 'react';
 const ScrollRevealContainer = ({ children }) => {
   const containerRef = useRef(null);
 
+  
   useEffect(() => {
     const scrollReveal = ScrollReveal({
       // Opções do ScrollReveal
