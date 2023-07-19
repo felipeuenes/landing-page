@@ -63,7 +63,7 @@ strong{
     /* background-size: 100%; */
     background-size: cover;
     width: 100vw;
-    height: 110vh;
+    height: 105vh;
     background-repeat: no-repeat;
 }
 
@@ -72,7 +72,7 @@ strong{
         background-position: top center;
         background-image: url(../../assets/fundo-mobile.png);
         background-size: 60vh;
-        height: 60.0rem;
+        height: 55.0rem;
     }
 }
 

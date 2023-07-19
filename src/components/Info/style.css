@@ -5,9 +5,17 @@
     background-image: url('../../assets/fundo-linhas.png');
     background-size: cover;
     display: flex;
- 
     background-repeat: no-repeat;
      /* visibility: hidden; */
+}
+
+@media screen and (max-width: 500px) {
+    .informacoes{
+     background-image: url('../../assets/fundo-linhas-mobile.png');
+     background-position: center;
+     background-size: cover;
+     height: 140.0rem;
+    }
 }
 
 .informacoes h1{
