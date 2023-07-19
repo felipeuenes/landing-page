@@ -33,7 +33,7 @@ export function Info() {
                     <p>Mapas escritos em
                         ordem descendente
                         para facilitar a leitura,
-                        compreenção e memorização através de
+                        compreensão e memorização através de
                         textos sequenciados.</p>
                 </section>
                 
