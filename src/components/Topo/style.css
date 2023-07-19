@@ -12,6 +12,10 @@
     animation: fadeIn 1s ease-in-out forwards;
 }
 
+.txt section p{
+    margin-top: 0.6rem;
+    font-size: 2.0rem;
+}
 @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -36,6 +40,10 @@
 @media screen and (max-width: 500px) {
     .txt section h1{
         font-size: 3.6rem;
+    }
+
+    .txt section p{
+        font-size: 1.6rem;
     }
 }
 

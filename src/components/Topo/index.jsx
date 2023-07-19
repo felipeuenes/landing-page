@@ -18,7 +18,7 @@ export function Topo(){
                     <h1>Chega de <br/>
                     <strong> perder tempo!</strong></h1>
                     <p>Aprenda com os mapas mentais do professor Elder 
-                        e ganhe em facilidade e agilidade para memorizar o
+                        e ganhe facilidade e agilidade para memorizar o
                         conteúdo programático do seu concurso</p>                     
                 </section>
                 <section id='foto'>
