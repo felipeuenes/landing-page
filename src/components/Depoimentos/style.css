@@ -29,6 +29,8 @@
     background-image: url('../../assets/perfil.png');
     background-repeat: no-repeat;
 }
+
+
 .card:hover{
     flex: 3;
     background-color: #0058af;
@@ -41,5 +43,9 @@
         display: flex;
         flex-direction: column;
     }
-   
+   .card{
+    width: 30.0rem;
+    height: 20.0rem;
+    
+   }
 }
