@@ -14,3 +14,33 @@
         font-size: 3.5rem;
     }
 }
+
+.container{
+    display: flex;
+    gap: 1.0rem;
+    padding: 1.6rem;
+}
+
+.card{
+    height: 20.0rem;
+    background-color: #006edb;
+    flex: 1;
+    transition: .3s;
+    background-image: url('../../assets/socorro.png');
+    background-repeat: no-repeat;
+}
+.card:hover{
+    flex: 3;
+    background-color: #0058af;
+    background-image: url('../../assets/socorro-txt.png');
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        height: 20.0rem;
+    }
+}
