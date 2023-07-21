@@ -5,8 +5,6 @@ import "./style.css";
 
 export function Depoimentos() {
 
-    
-
 
     return(
         <ScrollRevealContainer>
